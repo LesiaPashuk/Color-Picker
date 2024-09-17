@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="colorCSS/color.css">
+    <link rel="icon" href="https://www.pngmart.com/files/22/Palette-PNG.png" type="image/x-icon" >
+</head>
+<body>
+    <div id="headerDecor">
+        <div id="headerDecor2"></div>
+    </div>
+   
+    <main> 
+    <h1>Color Picker</h1>
+    <div class="textDecor"><h2>CMYK:</h2></div>
+    <input type="text" id="cmykC" class="inputText" value="0%">
+    <input type="text" id="cmykM" class="inputText" value="100%">
+    <input type="text" id="cmykY" class="inputText" value="100%">
+    <input type="text" id="cmykK" class="inputText" value="38%">
+    <div id="rangeCMYK">
+        <input type="range" min="0" max="100" step="1" id="rangeC" value="0" class="rangeColor">
+        <input type="range" min="0" max="100" step="1" id="rangeM" value="100" class="rangeColor">
+        <input type="range" min="0" max="100" step="1" id="rangeY" value="100" class="rangeColor">
+        <input type="range" min="0" max="100" step="1" id="rangeK" value="38" class="rangeColor">
+    </div>
+
+    <div class="textDecor2"><h2>RGB:</h2></div>
+    <input type="text" id="rgbR" class="inputText" value="159">
+    <input type="text" id="rgbG" class="inputText" value="0">
+    <input type="text" id="rgbB" class="inputText" value="0">
+
+    <div id="rangeRGB">
+        <input type="range" min="0" max="255" step="1" id="rangeR" value="159" class="rangeColor">
+        <input type="range" min="0" max="255" step="1" id="rangeG" value="0" class="rangeColor">
+        <input type="range" min="0" max="255" step="1" id="rangeB" value ="0" class="rangeColor"> 
+    </div>
+
+    <div class="textDecor2"><h2> HSL:</h2></div>
+    <input type="text" id="hlsH" class="inputText" value="0">
+    <input type="text" id="hlsS" class="inputText" value="100">
+    <input type="text" id="hlsL" class="inputText" value="31">
+    <div id ="rangeHSL">
+        <input type="range" min="0" max="360" step="1" id="rangeH" value ="0" class="rangeColor">
+        <input type="range" min="0" max="100" step="1" id="rangeS" value="100" class="rangeColor">
+        <input type="range" min="0" max="100" step="1" id="rangeL" value="31" class="rangeColor">  
+    </div>
+    
+<div id="colorDiv"><div class="textDecor"><h2>Color:</h2></div>
+    <input type="color" id="colorPicker" value="#9f0000"></div>
+    
+</main>
+    <div id="screen"></div>
+        
+    <script src="colorJS/color.js"></script>
+</body>
+</html>
