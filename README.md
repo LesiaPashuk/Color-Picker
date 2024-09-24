@@ -1,6 +1,6 @@
 ## Reselt
 
-To follow my web-site use [this link] (https://lesiapashuk.github.io/Color-Picker/color.html).
+To follow my web-site use [this link](https://lesiapashuk.github.io/Color-Picker/color.html) .
 
 Задача:
 Создать приложение/веб-приложение, позволяющее пользователю выбирать, а
