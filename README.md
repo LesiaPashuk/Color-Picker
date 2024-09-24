@@ -1,3 +1,7 @@
+# Color Converter
+
+This project was generated using HTML5 CSS3 and JavaScript.
+
 ## Reselt
 
 To follow my web-site use [this link](https://lesiapashuk.github.io/Color-Picker/color.html) .
